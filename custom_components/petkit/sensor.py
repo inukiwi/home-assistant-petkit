@@ -2307,7 +2307,7 @@ class PetRecentWeight(CoordinatorEntity, SensorEntity):
             weight_calculation = round((latest_weight / 1000), 1)
             return weight_calculation
         else:
-            return None
+            return self._attr_native_value
 
     @property
     def native_unit_of_measurement(self) -> UnitOfMass:

@@ -3,6 +3,6 @@
   "render_readme": true,
   "country": "US",
   "homeassistant": "2023.4.0",
-  "zip_release": true,
+  "zip_release": false,
   "filename": "petkit.zip"
 }
